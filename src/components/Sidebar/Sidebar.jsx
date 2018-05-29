@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import throttle from 'lodash.throttle';
 import Shield from '../Shield/Shield';
 import SidebarItem from '../SidebarItem/SidebarItem';
+import Tipe from '../Tipe/Tipe';
 
 export default class Sidebar extends Component {
   state = {
@@ -27,6 +28,7 @@ export default class Sidebar extends Component {
         }}>
 
         <div className="sidebar__inner">
+          <Tipe />
           <a href="https://github.com/webpack/webpack/releases">
             <Shield content="npm/v/webpack" label="webpack" />
           </a>
