@@ -9,6 +9,7 @@ export default () => {
       style={{
         width: '50%'
       }}
+      href="https://tipe.io/?ref=webpack"
     />
   );
 };
