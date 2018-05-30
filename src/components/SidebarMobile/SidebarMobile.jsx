@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from '../Link/Link';
+import Tipe from '../Tipe/Tipe';
 
 let initialTouchPosition = {};
 let lastTouchPosition = {};
@@ -27,6 +28,12 @@ export default class SidebarMobile extends React.Component {
           onTouchEnd={this._handleTouchEnd.bind(this)} />
 
         <div className="sidebar-mobile__content">
+          <div style={{
+            position: 'relative',
+            left: '10px'
+          }}>
+            <Tipe />
+          </div>
           <i
             className="sidebar-mobile__close icon-cross"
             onClick={ this._close.bind(this) } />
