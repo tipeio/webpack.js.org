@@ -30,7 +30,7 @@ export default class SidebarMobile extends React.Component {
         <div className="sidebar-mobile__content">
           <div style={{
             position: 'relative',
-            right: '8%'
+            left: '10px'
           }}>
             <Tipe />
           </div>
